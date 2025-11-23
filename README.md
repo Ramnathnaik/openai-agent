@@ -147,6 +147,11 @@ User Input → Coordinator Agent → [Handoff] → Specialized Agent → Respons
 User Input → Input Guardrail → Agent → Output Guardrail → Response
 ```
 
+### Conversational Thread Pattern
+```
+User Message → Add to Thread → Agent (with full history) → Update Thread → Response
+```
+
 ## 🔑 Key Technologies
 
 - **@openai/agents**: OpenAI Agents SDK
